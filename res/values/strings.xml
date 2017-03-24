@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Guia App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Inicio</item>
+        <item >Docentes</item>
+        <item >Alumnos</item>
+        <item >Proposito del App</item>
+        <item >Créditos</item>
+        <item >Salir</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_docentes</item>
+        <item>@drawable/ic_alumnos</item>
+        <item>@drawable/ic_proposito</item>
+        <item>@drawable/ic_creditos</item>
+        <item>@drawable/ic_salir</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="filtrado_de_ligas">Filtrado de Ligas</string>
+    <string name="buscar">Buscar</string>
+    <string name="ingrese_credenciales">Ingrese sus credenciales:</string>
+    <string name="nombre_usuario">Nombre Usuario:</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="acceso_alumnos">Acceso para Alumnos</string>
+    <string name="acceso_docentes">Acceso para Docentes</string>
+    <string name="calve_acceso">Clave de Acceso:</string>
+    <string name="proposito_app">Proposito de la App</string>
+    <string name="proposito_text">El propósito principal de esta Aplicación es proporcionar a los Docentes del PEUL de la UA de C de la UAZ una herramienta que le Sirva de apoyo para el desarrollo de exámenes de diagnóstico y material didáctico para estudiantes del idioma inglés en esta unidad. Y para los alumnos estudiantes de este idioma, que cuenten con uan herramienta que les ayude al auto-aprendizaje o reforzamiento de lo aprendido en el aula mediante accesos directos a páginas con contenido seleccionado para un mejor aprovechamiento extra aula.</string>
+    <string name="creditos">Créditos</string>
+    <string name="creditos_text">Los créditos de este proyecto se le otorgan a la ISC Blanca Fabiola Salazar Hernández, que con el apoyo de la Responsable de la Academia de Inglés del PEUL, Mtra. Elvia Leonor Díaz Valdéz por llevar a cabo la revisión de los accesos a páginas WEB almacenadas en Base de Datos y el compañero Juan Manuel Martínez Cabrera por su asesoría técnica en el desarrollo de dicho proyecto, fue posible la implementación de mencionada App.</string>
+    <string name="filtro">Filtrar:</string>
+    <string name="nom_doc">Nombre del Docente:</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="agra">Agradecimientos</string>
+    <string name="thanks">Los que colaboramos para que fuera posible el diseño y desarrollo de esta App agradecemos el interés por la misma.</string>
+
+</resources>

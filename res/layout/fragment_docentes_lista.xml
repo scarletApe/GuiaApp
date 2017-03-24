@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_other" >
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView200"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView200"
+        android:text="@string/acceso_docentes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/ic_docentes" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView200"
+        android:layout_below="@+id/textView100"
+        android:layout_marginTop="15dp"
+        android:text="@string/filtro"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_filtro_en_docentes"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView200"
+        android:layout_alignBottom="@+id/textView200"
+        android:layout_alignLeft="@+id/textView100"
+        android:background="@drawable/my_textedit_style"
+        android:ems="10"
+        android:hint="  Filtre Algo"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_buscar_en_docentes"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_filtro_en_docentes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_selector"
+        android:onClick="filtrarEnDocentes"
+        android:text="@string/buscar"
+        android:textColor="@color/list_item_title" />
+
+    <ListView
+        android:id="@+id/listView_docentes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView200"
+        android:layout_alignRight="@+id/textView100"
+        android:layout_below="@+id/button_buscar_en_docentes"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/my_textedit_style" >
+
+    </ListView>
+
+</RelativeLayout>
